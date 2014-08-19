@@ -15,4 +15,11 @@ To install the generated RPM package:
 TO-DO:
 - Check JVM dependency
 - Setup zookeeper user/group to run the service
-- Develop uninstall process	
+- Develop uninstall process
+
+NOTES:
+Source zookeeper.3.4.6.tar.gz file has been slightly modified to allow use zkServer.sh run as init.d script
+and conf/zoo.cfg has been preconfigured to allow service run without any manual step.
+
+Used this notes:
+http://positivealex.github.io/blog/posts/how-to-install-zookeeper-as-service-on-centos/	
